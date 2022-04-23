@@ -7,15 +7,11 @@
   "permissions": [
     "activeTab",
     "scripting"
-  ],
-  "host_permissions": [
-	  "http://time-time.net/"
-	],
- 
+  ], 
   "content_scripts": [
     {
       "matches": [
-        "<all_urls>"
+        "*://time-time.net/*"
       ],
       "css": [
         "styles.css"

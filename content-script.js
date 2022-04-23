@@ -1,8 +1,8 @@
 function displayTime()
 {
-    var time = document.getElementById('timenow').innerHTML;
-    if (typeof (time) != 'undefined' && time != null) {
-        document.title = time;
+    let element = document.getElementById('timenow');
+    if (typeof (element) != 'undefined' && element != null) {
+        document.title = element.innerHTML;
     }
 }
 
